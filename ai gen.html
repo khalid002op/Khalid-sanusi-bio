@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Muhammad Khalid - Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      padding: 20px;
+      margin-bottom: 30px;
+      align-items: center;
+    }
+
+    .profile-img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 10px;
+      margin-right: 20px;
+      flex-shrink: 0;
+    }
+
+    .text {
+      flex: 1;
+      font-size: 1.1rem;
+      color: #1a73e8;
+    }
+
+    h3 {
+      margin-top: 30px;
+      color: #1a73e8;
+      font-size: 1.5rem;
+    }
+
+    p {
+      margin: 10px 0 20px;
+    }
+
+    audio, video {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 40px 0 20px;
+    }
+
+    .links {
+      margin-top: 20px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #1a73e8;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #155ab6;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile-img {
+        margin: 0 0 15px 0;
+      }
+
+      .links a {
+        display: block;
+        margin-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="Kld.jpg" alt="Muhammad Khalid" class="profile-img">
+    <div class="text">
+      <p>Hello! I'm <strong>Muhammad Khalid Sanusi</strong>, an aspiring professional programmer passionate about building a bright future through technology.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <h3>About</h3>
+  <p>This audio will also tell you who I am. Just follow me:</p>
+  <audio controls>
+    <source src="kld.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p>This video will additionally clarify who I am. Just follow me:</p>
+  <video controls>
+    <source src="kld.mp4" type="video/mp4">
+    Your browser does not support the video element.
+  </video>
+<p>You can also reach out to me through</p>
+  <div class="links">
+    <a href="https://www.facebook.com/share/16PiLn3suA/" target="_blank">Facebook</a>
+    <a href="https://wa.me/qr/IXYS2IXZ2C2LP1" target="_blank">WhatsApp</a>
+  </div>
+
+</body>
+</html>
